@@ -14,10 +14,7 @@ A Blender shader for Umamusume: Pretty Derby. Still under development, but I tho
 	![Screenshot of expected material list](https://i.ibb.co/Y44gch5Z/Screenshot-2025-07-18-010548.png)
 3. In the shader editor, **apply the appropriate textures to the appropriate slots** (i.e. Base texture goes to base, etc)
 ![Screenshot of texture setup](https://i.ibb.co/SDpqJkpV/Screenshot-2025-07-18-010729.png) 
-4. For the face material specifically, **you need to assign drivers to some values in the shader node**. You need to hook the rotation values of the Head bone to the appropriate slots on the shader. So three drivers hooked to the X, Y, And Z values of the head bone. ***(THIS METHOD IS LAGGY, AND WILL BE REPLACED IN THE FUTURE)***
-![Screenshot of Driver setup](https://i.ibb.co/F40dbB0r/Screenshot-2025-07-18-011029.png)
-![Screenshot of Driver Setup 2](https://i.ibb.co/Q7rfjqDC/Screenshot-2025-07-18-011132.png)
-5. For the **outlines**, I have provided a simple outline material and geometry node setup for now. Simply **duplicate the mesh, and give it a geometry node modifier, and set it to the one provided**.
+4. For the **outlines**, I have provided a simple outline material and geometry node setup for now. Simply **duplicate the mesh, and give it a geometry node modifier, and set it to the one provided**.
 ![Screenshot of Outline setup](https://i.ibb.co/j9mvm4D1/Screenshot-2025-07-18-011324.png)
 
 ### If you have any questions, or are understandibly confused, feel free to post an issue, and/or contact me via Discord.
@@ -26,7 +23,7 @@ A Blender shader for Umamusume: Pretty Derby. Still under development, but I tho
 
 # Special Thanks
 @AerthasVeras for sharing the dot product node setup
-@elagrimm and @mojuko for helping with the face shading setup (even though it will be short lived)
+@elagrimm and @mojuko for helping with the face shading setup (even though it will be short-lived)
 
 # To-Do List
 - Rework Face shading with better method
